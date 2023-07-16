@@ -16,6 +16,7 @@ const { makeRequest } = require('./makeRequest');
 const { openWebSocket } = require('./openWebSocket');
 const { saveDevicesCache } = require('./saveDevicesCache');
 const { setDevicePowerState } = require('./setDevicePowerState');
+const { setDeviceParams } = require('./setDeviceParams');
 const { toggleDevice } = require('./toggleDevice');
 
 const mixins = {
@@ -36,7 +37,7 @@ const mixins = {
   makeRequest,
   openWebSocket,
   saveDevicesCache,
-  setDevicePowerState,
+  setDeviceParams,
   toggleDevice,
 };
 
