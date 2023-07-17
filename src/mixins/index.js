@@ -37,6 +37,7 @@ const mixins = {
   makeRequest,
   openWebSocket,
   saveDevicesCache,
+  setDevicePowerState,
   setDeviceParams,
   toggleDevice,
 };
